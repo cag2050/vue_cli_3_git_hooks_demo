@@ -1,0 +1,17 @@
+{
+    "linters": {
+        "src/**/*.js": [
+            "eslint --fix",
+            "git add"
+        ],
+        "src/**/*.vue": [
+            "eslint --fix",
+            "git add"
+        ]
+    },
+    "ignore": [
+        "**/migrations/**/*.js",
+        "**/node_modules/**/*.js",
+        "**/dist/**/*.js"
+    ]
+}
