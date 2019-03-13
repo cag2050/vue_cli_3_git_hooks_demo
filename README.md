@@ -19,6 +19,12 @@
 ```
 3. 添加文件：.lintstagedrc、commitlint.config.js。
 
+### vue cli 3 查看项目 vue.config.js 的默认配置信息
+1. 运行命令，在终端输出：
+```npx vue-cli-service inspect```
+2. 运行命令，将输出导入到文件：`vue.config.detail.js`：
+```npx vue-cli-service inspect >> vue.config.detail.js```
+3. 在文件：`vue.config.detail.js` 开头，添加：`module.exports = `，然后格式化即可查看。
 
 ### .lintstagedrc 配置
 `prettier-eslint --write`含义：
