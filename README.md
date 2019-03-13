@@ -4,7 +4,7 @@
 3. 此项目选择的：`ESLint + Standard config`，没有选择`ESLint + Prettier`，
 
 ### 此项目实现的功能：
-1. git commit 时，进行代码格式化。比如：js中用了双引号，commit 时，会被修改为符合 eslint 规范的单引号。
+1. git commit 时，进行代码格式化。比如：js中用了双引号，commit 时，会被修改为符合 Standard 规范的单引号。
 2. 检查 commit 信息文案是否合规。不符合规则，无法提交代码；commit 信息文案规范，commitlint.config.js 中 rules.type-enum 指定的关键字加上英文冒号再加空格，然后写具体文案，比如：`fix: 具体文案`
 
 ### 实现步骤
