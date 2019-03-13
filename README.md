@@ -1,7 +1,6 @@
 ### vue-cli 3 安装选项:
 1. Babel, Router（history mode）, Vuex, CSS Pre-processors（Stylus）, Linter（ESLint + Standard config、Lint and fix on commit），placing config（In dedicated config files）
-2. `Lint and fix on commit`不是我喜欢的，我更喜欢`lint on save`
-3. 此项目选择的：`ESLint + Standard config`，没有选择`ESLint + Prettier`，
+2. 此项目选择的：`ESLint + Standard config`，没有选择`ESLint + Prettier`
 
 ### 此项目实现的功能：
 1. git commit 时，进行代码格式化。比如：js中用了双引号，commit 时，会被修改为符合 Standard 规范的单引号。
